@@ -1,0 +1,9 @@
+O que é git?
+Git é uma ferramenta importante para "versionar" os arquivos, ou seja, separar por alterações em uma linha de tempo onde o arquivo foi modificado. Um arquivo em diferentes versões pode apresentar erros, então é importante ter uma ferramenta para facilitar a procura dos mesmos. O Git também faz auxlio para quem busca trabalhar em equipe, fazendo a troca de informação de um repositorio para outro, tanto um repositório remoto quanto os repostitórios locais dos participantes, o qual é ideal quando se perde a conexção com o repostório remoto e os desenvolvedores podem continuar alterando os arquivos em suas máquinas e enviando para os demais.
+Algúns comandos do git:
+git init (Usado para criar um novo repositório.)
+git clone rua_baker/n221b (Usado para criar uma cópia em um repositório local, nota: "rua_baker/n221b" é caminho para o repositório. Para criar uma cópia de um repostório remoto usa-se o link como caminho.)
+git touch nome_do_arquivo.txt (Usado para criar um novo arquivo no repositório, nota: "nome_do_arquivo" é o nome que o arquivo terá e ".txt" é o formato do arquivo)
+git add .(Usado para preparar todos os arquivos a serem "commitados". Também pode se usar ao ivés de "." o nome do arquivo para preparar algum especifico.)
+git commit -m "comentários" (Usado para adicionar as alterações dos arquivos que estão preparados para commit, nota: em -m "comentarios" é usado para identificar o que está alterando para maior facilidade de rastrear caso haja algo errado depois.)
+git push origin *nome da branch* (Usado para transferir as alterações locais para o remoto.)
